@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('document');
 });
+
+Route::resource('document', 'DocumentController');
+Route::post('update-document/{id}', ['as' => 'update-document', 'uses' => 'DocumentController@update']);

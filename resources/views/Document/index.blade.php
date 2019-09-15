@@ -21,7 +21,7 @@
   <thead>
     <tr>
       <th>Title</th>
-      <th>File Path</th>
+      <th>File Name</th>
       <th>Actions</th>
     </tr>
   </thead>
